@@ -1,0 +1,14 @@
+Install the appropriate packages and run in the folder you downloaded the files
+
+nasm -felf64 ./snak.asm && ld snak.o -o ./snak
+
+to compile the assembly files
+
+
+
+Then run 'snak' from the terminal and you're good to go
+WASD for movement
+Exit at any time with 'q'
+
+
+It works in Ubuntu, not sure about other devices
